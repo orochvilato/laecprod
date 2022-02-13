@@ -6,6 +6,7 @@ services:
     build:
       context: ./laec
       dockerfile: Dockerfile
+      network: host
     volumes:
       -  ./laec:/app
     entrypoint: ["./wait.sh"]
