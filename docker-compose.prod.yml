@@ -19,7 +19,7 @@ services:
       DATABASE_PORT: 3306
       ELASTICSEARCH_HOST: es
       ELASTICSEARCH_PORT: 9200
-      PROD_HOST: localhost
+      PROD_HOST: laecv2.caissesdegreve.fr
       DJANGO_SETTINGS_MODULE: config.settings_prod
     depends_on:
       - db
